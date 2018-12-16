@@ -13,7 +13,7 @@ public class NumberIndicator: UIView {
     
     public static var DEFAULT_TEXT_SIZE: CGFloat = 14
     
-    public static var DEFAULT_TEXT_COLOR = UIColor(red: 255, green: 255, blue: 255, alpha: 0.68)
+    public static var DEFAULT_TEXT_COLOR = UIColor.white
     
     // 当前页
     public var index = -1 {
@@ -111,7 +111,7 @@ public class NumberIndicator: UIView {
     
     private func setup() {
         
-        backgroundColor = .blue
+        backgroundColor = .clear
         
         addConstraints([
             
