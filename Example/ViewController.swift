@@ -17,6 +17,7 @@ class ViewController: UIViewController {
         let indicator = NumberIndicator()
         indicator.index = 2
         indicator.count = 10
+        indicator.gap = 10
         indicator.separator = "/"
         indicator.translatesAutoresizingMaskIntoConstraints = false
         
